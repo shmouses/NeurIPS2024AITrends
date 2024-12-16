@@ -116,7 +116,7 @@ The figure below provides a **small multiples plot** for the top 10 topics over 
 ---
 
 ## Conclusion
-The analysis reveals a clear **shift in AI research** towards generative models, particularly **LLMs** and **Diffusion Models**. At the same time, areas like **Graph Neural Networks** and **Reinforcement Learning** continue to remain active. Ontology-based insights further showcase a diversification of AI applications into fields like **Healthcare AI**, **Climate AI**, and **AI4Materials**.
+The analysis reveals a clear **shift in AI research** towards generative models, particularly **LLMs** and **Diffusion Models**. At the same time, areas like **Graph Neural Networks** and **Reinforcement Learning** continue to remain active. Ontology-based insights further showcase a diversification of AI applications into fields like **Healthcare AI**, **Climate AI**, **AI4Chemistry**, **AI4Physics** and **AI4Materials**.
 
 Future research directions are likely to focus on scaling **LLMs**, improving **multi-modal learning**, and exploring **causality** in AI systems.
 

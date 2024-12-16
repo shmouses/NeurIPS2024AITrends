@@ -7,36 +7,46 @@ This repository analyzes **NeurIPS papers (2020-2024)** to uncover key trends, r
 
 ## Key Insights
 
-### 1. Word Cloud of NeurIPS 2024
-The word cloud below highlights prominent keywords from the 2024 NeurIPS conference, emphasizing key research areas:  
+### Word Cloud of NeurIPS 2024
 
-- **Language Models** (LLMs, Transformers)  
-- **Diffusion Models** (e.g., Stable Diffusion)  
-- **Reinforcement Learning**  
-- **Graph Neural Networks**  
-- Emerging topics such as **3D Vision**, **Optimization**, and **Causal Inference**.  
+The **2024 word cloud** highlights the most prominent words and phrases, emphasizing key research areas using word frequency:
+
+- **Language Models** (LLMs, Transformers)
+- **Diffusion Models**
+- **Vision and Graph Neural Networks**
+- Emerging topics such as **3D Vision**, **Optimization**, and **Video Processing**
 
 ![Word Cloud 2024](figures/wordcloud_2024.png)
-
 ---
 
-### 2. Top Research Topics (2020-2024)
-The bar charts illustrate the **top 10 topics** for each year, showing which areas have consistently dominated or emerged in AI research.
+### Research Topic Analysis
+
+We analyzed top topics from NeurIPS papers in two ways:
+1. **Word Frequency Analysis**: Direct frequency of words in paper titles.
+2. **Ontological Analysis**: Grouping words into broader research categories.
+
+#### Word Frequency Analysis
+
+The bar charts illustrate the **top topics** for each year, showing which areas have consistently dominated or emerged in AI research.
 
 | **Year** | **Key Trends** |
 | -------- | -------------- |
-| **2020** | Deep Learning, Reinforcement, Optimization |
-| **2021** | Reinforcement Learning, Deep Networks, Optimization |
-| **2022** | Reinforcement Learning, Graph Methods, Language Models |
+| **2024** | **Language Models** lead, followed by **Diffusion**, Vision, and 3D rendering topics |
 | **2023** | **Language Models** (LLMs), **Diffusion Models**, Vision |
-| **2024** | **Language Models** lead, followed by **Diffusion**, Vision, and 3D topics |
+| **2022** | Reinforcement Learning, Graph Methods, Language Models |
+| **2021** | Reinforcement Learning, Deep Networks, Optimization |
+| **2020** | Deep Learning, Reinforcement, Optimization |
 
-**Example: Top Topics in 2024**  
+Example bar chart for 2024:
 ![Top Topics 2024](figures/top_topics_2024.png)
+
+More plots can be found in the **Jupyter Notebook** or the **figures folder** in the repository:  
+- [Jupyter Notebook](https://github.com/shmouses/NeurIPS2024AITrends/blob/main/NeurIPS2024_AI_Trends_Analysis.ipynb)  
+- [Figures Folder](https://github.com/shmouses/NeurIPS2024AITrends/tree/main/figures)
 
 ---
 
-### 3. Trends Over Time
+#### Trends Over Time
 The line plot below showcases how the **top 10 AI research trends** evolved from 2020 to 2024:  
 
 - **Language Models** have shown **exponential growth** since 2023.  
@@ -47,25 +57,61 @@ The line plot below showcases how the **top 10 AI research trends** evolved from
 
 ---
 
-### 4. Ontology-Based Trends
-Research topics were grouped into broader **ontological categories** (e.g., **Vision**, **Transformers**, **Optimization**, **Bayesian Methods**, etc.). Below are the insights:  
+### Ontology-Based Trends
+
+Ontology groups related terms into broader **research categories** (e.g., "Language Models" includes LLMs, GPT, and Transformers). This approach helps uncover high-level trends and allows better understanding of the **direction and diversity** of research topics. Ontologies consolidate variations of terms under unified themes and highlight trends that are not visible through raw word frequencies.
+
+#### Top Ontological Categories by Year
+
+The table below shows the **top 5 ontological categories** for each year, chosen because ontologies encompass a wider range of topics and concepts.
+
+| **Year** | **Top Ontological Categories** |
+| -------- | ------------------------------ |
+| **2024** | Vision, Diffusion, LLMs, Foundation Models, Graphs |
+| **2023** | Vision, Diffusion, Bayesian Methods, Graphs, Optimization |
+| **2022** | Vision, Bayesian Methods, Optimization, Graphs, Reinforcement Learning |
+| **2021** | Bayesian Methods, Optimization, Graphs, Vision, Reinforcement Learning |
+| **2020** | Optimization, Bayesian Methods, Graphs, Reinforcement Learning, Vision |
+
+#### Ontology-Based Bar Plots
+
+The bar charts below highlight the **top ontological categories** for selected years, demonstrating the trend:
+
+#### 2024 Ontological Categories
+![Ontology Bar Plot 2024](figures/ontology_bar_plot_2024.png)
+
+#### 2023 Ontological Categories
+![Ontology Bar Plot 2023](figures/ontology_bar_plot_2023.png)
+
+#### 2022 Ontological Categories
+![Ontology Bar Plot 2022](figures/ontology_bar_plot_2022.png)
+
+Additional plots are available in the **figures folder** and the **Jupyter Notebook**:  
+- [Jupyter Notebook](https://github.com/shmouses/NeurIPS2024AITrends/blob/main/NeurIPS2024_AI_Trends_Analysis.ipynb)  
+- [Figures Folder](https://github.com/shmouses/NeurIPS2024AITrends/tree/main/figures)
+
+---
 
 #### Raw Frequencies
 The raw frequency analysis highlights **Vision**, **Diffusion**, and **Reinforcement Learning** as dominant themes.
 
 ![Ontology Trends (Raw)](figures/ontology_trends_raw.png)
 
-#### Normalized Trends
-The normalized plot identifies emerging areas such as **Diffusion Models** and **Foundation Models (LLMs)** while showing a decline in older topics like **Optimization**.
-
-![Ontology Trends (Normalized)](figures/ontology_trends_normalized.png)
-
----
-
-### 5. Small Multiples Visualization
+##### Small Multiples Visualization
 The figure below provides a **small multiples plot** for the top 10 topics over time, allowing a more granular view of individual trends.
 
 ![Small Multiples Trends](figures/small_multiples_trends.png)
+
+#### Normalized Trends
+The normalized plot identifies emerging areas such as **Diffusion Models** and **Foundation Models (LLMs)** while showing a decline in older topics like **Optimization** and **Bayesian Methods**.
+
+![Ontology Trends (Normalized)](figures/ontology_trends_normalized.png)
+
+##### Small Multiples Visualization
+The figure below provides a **small multiples plot** for the top 10 topics over time, allowing a more granular view of individual trends.
+
+![Small Multiples Trends](figures/ontology_small_multiples_trends_normalized.png)
+
 
 ---
 

@@ -105,4 +105,4 @@ Future research directions are likely to focus on scaling **LLMs**, improving **
 ## Contact Information  
 **Shayan Mousavi, PhD**  
 - **GitHub**: [shmouses](https://github.com/shmouses)  
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/](https://www.linkedin.com/in/shayan-mousavi-ai/))    
+- **LinkedIn**: [Shayan Mousavi M.](https://www.linkedin.com/](https://www.linkedin.com/in/shayan-mousavi-ai/))    

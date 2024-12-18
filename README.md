@@ -1,4 +1,5 @@
 # NeurIPS 2024 AI Research Trends
+By Shayan Mousavi, PhD
 
 ## Overview
 This repository analyzes **NeurIPS papers (2020-2024)** to uncover key trends, research directions, and emerging areas in Artificial Intelligence (AI). Using extracted titles, advanced natural language processing (NLP), and ontology-based categorization, we visualize trends in AI research topics across multiple years.
